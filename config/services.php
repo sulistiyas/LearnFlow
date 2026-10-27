@@ -35,4 +35,11 @@ return [
         ],
     ],
 
+    'bunny' => [
+        'stream_api_key' => env('BUNNY_STREAM_API_KEY'),
+        'stream_library_id' => env('BUNNY_STREAM_LIBRARY_ID'),
+        'token_security_key' => env('BUNNY_TOKEN_SECURITY_KEY'),
+        'pull_zone_host' => env('BUNNY_PULL_ZONE_HOST', 'video.learnflow.io'),
+    ],
+
 ];
